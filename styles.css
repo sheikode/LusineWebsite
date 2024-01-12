@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    height: 5rem;
+}
+
+.navbar {
+    max-width: 100%;
+    height: 2.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.justify {
+    display: flex;
+    justify-content: center;
+  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.welcome {
+    max-width: 300px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    
+}
+
+nav ul li {
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 350;
+}
+
+h3 {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+/* Redimensione a imagem proporcionalmente à largura da viewport */
+.responsive-image {
+    max-width: 70%;
+    height: auto;
+}
+
+.responsive-image-about {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+    transition: filter 0.3s ease;
+}
+
+
+.responsive-image-about:hover {
+    filter: blur(5px); /* Adiciona o efeito de blur ao passar o mouse por cima */
+}
+
+
+
+.fixed-button {
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Faz com que o botão ocupe a largura total da tela */
+    text-align: center;
+    z-index: 1;
+}
+
+.button-image {
+    display: block;
+    width: 150px; /* Largura da sua imagem */
+    height: 50px; /* Altura da sua imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    background-image: url('assets/send_demo.png'); /* Substitua pelo caminho para a sua imagem */
+    background-size: cover; /* Garante que a imagem cubra todo o botão */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    text-indent: -9999px; /* Esconde o texto (técnica de substituição de texto) */
+}
+.fixed-button:hover {
+    background-color: #555; /* Cinza mais claro ao passar o mouse */
+}
+
+.names-about {
+    max-width: 200px;
+}
+
+/* Spotify Embed Styles */
+iframe {
+    width: 100%;
+    height: 380px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Beatport Button Styles */
+.beatport-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #5a5a5a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.beatport-button:hover {
+    background-color: #008000;
+}
+/* Estilo dos links no hover */
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Estilos para o botão de compra de ingressos */
+.ticket-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5a5a5a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.ticket-button:hover {
+    background-color: #008000;
+}
+
